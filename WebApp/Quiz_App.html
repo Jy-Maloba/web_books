@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="user-scalable=no, width=device-width"/>
+        <link rel="stylesheet" type="text/css" href="css/app.css">
+        <title>Question Time</title>
+        <script type="text/javascript" src="json/questions.json"></script>
+    </head>
+    <body>
+        <div id="header">
+            <h1><span id="quizLength"></span> Questions<br>The Quiz App</h1>
+            <span id="menu"></span>
+            <div id="menubox" style="display: none;">
+                <br><a href="add_question.html" alt="add questions" title="add questions"> Add Questions </a><br><br>
+                <a href="remove_questions.html" alt="remove questions" title="remove questions"> Drop Questions </a>
+                <span id="menudismiss"> X </span>
+            </div>
+        </div>
+        
+        <div class="quiz-wrapper">
+                <div id="quiz">
+                    
+                </div>
+        </div>
+            
+        <button id="previous"><p>Previous Question</p></button>
+        <button id="next"><p>Next Question</p></button>
+        <button id="submit"><p>Submit Quiz</p></button>
+
+        <div id="results">
+            <h2>Countdown Timer</h2>
+            <div id="clockdiv">  <!-- wrapper where the timer countdown will reside -->
+                <div class="smalltext"> <!--label to show where minutes will be displayed -->
+                    Minutes
+                    <span class="minutes"></span> <!--where the number of minutes for the countdown will reside -->
+                </div> 
+            </div>
+            <button id="tryAgain"><p>Try Again</p></button>
+        </div>
+            
+        <div id="footer">
+            <h5>Written by James &copy Copyright December 2022</h5>
+        </div>
+
+        <script src="js/app.js"></script>
+        <script src="js/countdown.js"></script>
+        <script src='js/menu.js'></script>
+    </body>
+</html>

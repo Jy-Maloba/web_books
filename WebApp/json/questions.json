@@ -1,0 +1,37 @@
+const data = [
+            {
+                question: "The planka is the oldest quatre of which city? ",
+                answers: 
+                {
+                    a: "Anthen", 
+                    b: "Prague", 
+                    c: "Rome", 
+                    d: "Vienna"
+                },
+                correctAnswer: "a"
+            },
+            
+            {
+                question: "The planka is the oldest quatre of which city? ",
+                answers: 
+                {
+                    a: "Anthen", 
+                    b: "Prague", 
+                    c: "Rome", 
+                    d: "Vienna"
+                },
+                correctAnswer: "a"
+            },
+        
+            {
+                question: "The planka is the oldest quatre of which city? ",
+                answers: 
+                {
+                    a: "Anthen", 
+                    b: "Prague", 
+                    c: "Rome", 
+                    d: "Vienna"
+                },
+                correctAnswer: "a"
+            }
+        ];

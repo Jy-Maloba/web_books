@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <h2>Convert JSON string into a Javascipt object.</h2>
+        <div id="result"></div>
+        <script>
+            //JSON String
+            const person = '{"name":"Garry Owen", "age":47, "car":"BMW"}';
+            
+            //make a new javascript object
+            const obj = JSON.parse(person);
+
+            //Display the results in the div
+            document.getElementById("result").innerHTML = obj.name + " is " + obj.age + "and drives a " + obj.car;
+        </script>
+    </body>
+</html>
