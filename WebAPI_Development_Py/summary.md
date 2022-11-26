@@ -72,3 +72,8 @@ this case ‘ https://127.0.0.1:5000/greet ’.
 2. Define and tell the listener at ‘ /gree t ’ how to respond using def index()
 3. Instructions for the program to follow if a request is received at " /gree t ", i.e. return “Hello,
 World!”
+
+to jsonify the response
+- import jsonify plugin from flask (from flask import jsonify)
+- add description (response = {"data": "Hello, world"})
+- create a response format (return jsonify(response))
