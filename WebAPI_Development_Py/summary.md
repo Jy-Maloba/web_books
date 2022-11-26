@@ -56,3 +56,19 @@ architectural patterns that organize the HTTP methods
 - SOAP APIs(Simple Object Access Protocol) is the earliest API specification. it is used to define messaging protocol specification for exchanging data between 2 systems.
 
 # CHAPTER 2: PYTHON AND WORKING WITH APIs
+**programmatically accessing an API**
+go to api.ipynb 
+using jupyter notebook to call the coindesk API
+extracting a single price from the data
+
+# CHAPTER 3: Building APIs with flask
+ python -m venv env: creates a virtual environment named env
+ . env/bin/actvate: activates the virtual environment
+ this is in linux
+ on app.py, when you run (flask run) command on the terminal
+ A brief run-down is, we asked Flask to
+1. Listen to the route ‘ /gree t ’ using @app.get("/greet") which represents the home for domain URL
+this case ‘ https://127.0.0.1:5000/greet ’.
+2. Define and tell the listener at ‘ /gree t ’ how to respond using def index()
+3. Instructions for the program to follow if a request is received at " /gree t ", i.e. return “Hello,
+World!”
